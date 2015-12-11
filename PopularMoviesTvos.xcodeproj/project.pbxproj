@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3766B60E1C1A6D3B00DCBEF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3766B60D1C1A6D3B00DCBEF3 /* AppDelegate.swift */; };
+		3766B6101C1A6D3B00DCBEF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3766B60F1C1A6D3B00DCBEF3 /* ViewController.swift */; };
+		3766B6131C1A6D3B00DCBEF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3766B6111C1A6D3B00DCBEF3 /* Main.storyboard */; };
+		3766B6151C1A6D3B00DCBEF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3766B6141C1A6D3B00DCBEF3 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3766B60A1C1A6D3B00DCBEF3 /* PopularMoviesTvos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopularMoviesTvos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3766B60D1C1A6D3B00DCBEF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3766B60F1C1A6D3B00DCBEF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3766B6121C1A6D3B00DCBEF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3766B6141C1A6D3B00DCBEF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3766B6161C1A6D3B00DCBEF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3766B6071C1A6D3B00DCBEF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3766B6011C1A6D3B00DCBEF3 = {
+			isa = PBXGroup;
+			children = (
+				3766B60C1C1A6D3B00DCBEF3 /* PopularMoviesTvos */,
+				3766B60B1C1A6D3B00DCBEF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3766B60B1C1A6D3B00DCBEF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3766B60A1C1A6D3B00DCBEF3 /* PopularMoviesTvos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3766B60C1C1A6D3B00DCBEF3 /* PopularMoviesTvos */ = {
+			isa = PBXGroup;
+			children = (
+				3766B60D1C1A6D3B00DCBEF3 /* AppDelegate.swift */,
+				3766B60F1C1A6D3B00DCBEF3 /* ViewController.swift */,
+				3766B6111C1A6D3B00DCBEF3 /* Main.storyboard */,
+				3766B6141C1A6D3B00DCBEF3 /* Assets.xcassets */,
+				3766B6161C1A6D3B00DCBEF3 /* Info.plist */,
+			);
+			path = PopularMoviesTvos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3766B6091C1A6D3B00DCBEF3 /* PopularMoviesTvos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3766B6191C1A6D3B00DCBEF3 /* Build configuration list for PBXNativeTarget "PopularMoviesTvos" */;
+			buildPhases = (
+				3766B6061C1A6D3B00DCBEF3 /* Sources */,
+				3766B6071C1A6D3B00DCBEF3 /* Frameworks */,
+				3766B6081C1A6D3B00DCBEF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopularMoviesTvos;
+			productName = PopularMoviesTvos;
+			productReference = 3766B60A1C1A6D3B00DCBEF3 /* PopularMoviesTvos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3766B6021C1A6D3B00DCBEF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = PrismStudiosLLC;
+				TargetAttributes = {
+					3766B6091C1A6D3B00DCBEF3 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 3766B6051C1A6D3B00DCBEF3 /* Build configuration list for PBXProject "PopularMoviesTvos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3766B6011C1A6D3B00DCBEF3;
+			productRefGroup = 3766B60B1C1A6D3B00DCBEF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3766B6091C1A6D3B00DCBEF3 /* PopularMoviesTvos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3766B6081C1A6D3B00DCBEF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3766B6151C1A6D3B00DCBEF3 /* Assets.xcassets in Resources */,
+				3766B6131C1A6D3B00DCBEF3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3766B6061C1A6D3B00DCBEF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3766B6101C1A6D3B00DCBEF3 /* ViewController.swift in Sources */,
+				3766B60E1C1A6D3B00DCBEF3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3766B6111C1A6D3B00DCBEF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3766B6121C1A6D3B00DCBEF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3766B6171C1A6D3B00DCBEF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		3766B6181C1A6D3B00DCBEF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3766B61A1C1A6D3B00DCBEF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = PopularMoviesTvos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prismstudios.PopularMoviesTvos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3766B61B1C1A6D3B00DCBEF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = PopularMoviesTvos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prismstudios.PopularMoviesTvos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3766B6051C1A6D3B00DCBEF3 /* Build configuration list for PBXProject "PopularMoviesTvos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3766B6171C1A6D3B00DCBEF3 /* Debug */,
+				3766B6181C1A6D3B00DCBEF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3766B6191C1A6D3B00DCBEF3 /* Build configuration list for PBXNativeTarget "PopularMoviesTvos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3766B61A1C1A6D3B00DCBEF3 /* Debug */,
+				3766B61B1C1A6D3B00DCBEF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3766B6021C1A6D3B00DCBEF3 /* Project object */;
+}
